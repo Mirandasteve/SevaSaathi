@@ -1,0 +1,24 @@
+.lang-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.lang-container h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.lang-container button {
+  width: 200px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #0f4c81;
+  color: #fff;
+}
