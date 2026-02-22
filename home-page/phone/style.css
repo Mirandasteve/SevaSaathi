@@ -1,0 +1,265 @@
+/* ===== GLOBAL ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #1a4fa3;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 20px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1558b0;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Page container */
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Headings */
+h2 {
+  color: #1a4fa3;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph text */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(135deg, #1a4fa3, #1a73e8);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+section h2 {
+  font-size: 28px;
+  color: #1a4fa3;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* ===== ABOUT ===== */
+.about p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* ===== ALERTS ===== */
+.alerts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Scam card (used by scam.js) */
+.card {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* Severity styles */
+.alert-high {
+  border-left: 8px solid #d32f2f;
+}
+
+.alert-medium {
+  border-left: 8px solid #f57c00;
+}
+
+/* ===== TIPS ===== */
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.tip-card {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 17px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: #1a4fa3;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.footer p {
+  margin: 6px 0;
+}
+
+.footer .small {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+
+
+/* ===== phone PAGE ===== */
+/* ===== PHONE NUMBER PAGE ===== */
+
+.login-container {
+  max-width: 420px;
+  margin: 90px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h2 {
+  font-size: 26px;
+  color: #1a4fa3;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+/* Phone input */
+.login-container input[type="tel"] {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 18px;
+}
+
+/* Save button */
+#savePhoneBtn {
+  width: 100%;
+  padding: 14px;
+  font-size: 20px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#savePhoneBtn:hover {
+  background-color: #1558b0;
+}
+
+/* Message text */
+#msg {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #d32f2f;
+}
+
+/* Optional helper text styling */
+.login-container small {
+  display: block;
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+}

@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "schemes": "Schemes",
+    "updates": "Updates",
+    "signup": "Sign Up",
+    "language": "Language"
+  },
+
+  "hero": {
+    "guide": "Guide",
+    "info": "Info",
+    "updates": "Updates",
+    "alert": "Alert",
+    "title": "Government Services, Made Simple",
+    "description": "Understand government schemes, forms, and notices in your native language — safely and easily.",
+    "cta": "Learn More",
+    "stats": {
+      "schemes": "Schemes",
+      "forms": "Forms",
+      "scams": "Scam Alerts"
+    }
+  },
+
+  "features": {
+    "header": "How SevaSaathi Helps You",
+    "subtitle": "Simple guidance • Safe access • Native language support",
+
+    "card1": {
+      "title": "Government Schemes",
+      "description": "We explain available government schemes and services in simple, plain language—no jargon, no confusion. Whether it's pension schemes, healthcare benefits, or financial assistance programs, we break down complex information into easy-to-understand steps so you can access what you're entitled to without any hassle.",
+      "cta": "More"
+    },
+
+    "card2": {
+      "title": "Form Guidance",
+      "description": "All guidance is available in Kannada and other regional languages for easy understanding. We provide step-by-step instructions on how to fill out government forms correctly, what documents you need, and where to submit them.",
+      "cta": "More"
+    },
+
+    "card3": {
+      "title": "Notice Explainer",
+      "description": "Learn how to identify fake messages and avoid government-related scams. We help you understand official government notices, distinguish them from fraudulent ones, and explain what actions you need to take.",
+      "cta": "More"
+    },
+
+    "card4": {
+      "title": "Scam Alert",
+      "description": "We only guide you and redirect to official government portals—no data collection. Stay safe from fraudsters who pose as government officials asking for money, OTPs, or personal information.",
+      "cta": "More"
+    },
+
+    "card5": {
+      "title": "Doc Updates",
+      "description": "We keep you informed about important document updates and renewals including Aadhaar, passport, ration card, and more.",
+      "cta": "More"
+    },
+
+    "card6": {
+      "title": "Help Center Locator",
+      "description": "Find the nearest government offices, Jan Seva Kendras, and authorized help centers in your area with accurate contact details and directions.",
+      "cta": "More"
+    }
+  },
+
+  "login": {
+    "back": "← Back",
+    "title": "Welcome to SevaSaathi",
+    "subtitle": "Sign in to receive verified scam alerts and safety updates.",
+    "email": "Email address",
+    "password": "Password",
+    "signin": "Sign in with Email",
+    "signup": "Create New Account",
+    "or": "OR",
+    "google": "Continue with Google",
+    "note": "We never ask for OTP, PIN, or bank details."
+  },
+
+  "about": {
+    "title": "About Us",
+    "intro": "SevaSaathi is a dedicated digital platform designed to bridge the gap between senior citizens and government services in India.",
+    "missionTitle": "Our Mission",
+    "mission": "To empower senior citizens with the knowledge, guidance, and support they need to access their rightful benefits without confusion, fear, or dependency.",
+    "serveTitle": "We Serve",
+    "serve": "SevaSaathi serves as a trusted companion for senior citizens across India, offering information about pension schemes, healthcare benefits, and government services.",
+    "contact": "Contact",
+    "phone": "phone:95814637620"
+  },
+
+  "faq": {
+    "title": "Frequently Asked Questions",
+
+    "q1": {
+      "question": "Is SevaSaathi a government website?",
+      "answer": "No, SevaSaathi is not a government website. We are an independent guidance platform."
+    },
+
+    "q2": {
+      "question": "Is SevaSaathi free to use?",
+      "answer": "Yes, SevaSaathi is completely free to use."
+    },
+
+    "q3": {
+      "question": "Do you collect or store my personal information?",
+      "answer": "No, we do not collect, store, or share any personal information."
+    },
+
+    "q4": {
+      "question": "How can I identify fake government messages?",
+      "answer": "Government agencies never ask for money via SMS or WhatsApp or request OTPs."
+    },
+
+    "q5": {
+      "question": "What government schemes are available for senior citizens?",
+      "answer": "There are many schemes including pension, savings, and health insurance programs."
+    },
+
+    "q6": {
+      "question": "Can I get help in my native language?",
+      "answer": "Yes! SevaSaathi provides guidance in Kannada and other regional languages."
+    },
+
+    "q7": {
+      "question": "How do I apply for a government scheme?",
+      "answer": "Select a scheme, follow the guidance, and apply via the official portal."
+    },
+
+    "q8": {
+      "question": "Where can I find help centers near me?",
+      "answer": "Use the Help Center Locator to find nearby government offices."
+    },
+
+    "q9": {
+      "question": "What documents do I need?",
+      "answer": "Common documents include Aadhaar, PAN, age proof, and address proof."
+    },
+
+    "q10": {
+      "question": "How will I receive updates?",
+      "answer": "Enable notifications after logging in to receive scheme updates."
+    }
+  },
+    "footer": {
+        "column1": {
+            "home": "Home",
+            "about": "About",
+            "schemes": "Schemes",
+            "updates": "Updates"
+        },
+        "column2": {
+            "link": {
+                "a1": "Government Schemes",
+                "a2": "Form Guidance",
+                "a3": "Notice Explainer",
+                "a4": "Scam Alert",
+                "a5": "Doc Updates",
+                "a6": "Help Center Locator"
+            }
+        },
+        "copyright": "© 2026 SevaSaathi. All rights reserved."
+    }
+}

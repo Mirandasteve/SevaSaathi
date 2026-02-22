@@ -1,0 +1,195 @@
+/* ===== LOGIN PAGE ===== */
+.login-page {
+  min-height: 100vh;
+  /* background:
+  url("../demo/img/hero.jpeg");
+  background-size: cover; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== CARD ===== */
+.login-card {
+ background: linear-gradient(
+    rgba(183, 183, 180, 0.65),
+    rgba(245,247,250,0.65)
+  );
+  /* url("../../images/logo.png") no-repeat center/cover; */
+
+  width: 380px;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+/* ===== TEXT ===== */
+.login-card h1 {
+  margin-bottom: 8px;
+  color: #1a4fa3;
+}
+
+.login-subtext {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 22px;
+}
+
+/* ===== INPUTS ===== */
+.login-card input {
+
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  background: #e6f4f1;
+  color: #1f5f52;
+
+  border: 2px solid #2f6f5e;
+  border-radius: 10px;
+
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  margin-bottom: 15px;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Make it feel clickable */
+.back-btn:hover {
+  background: #d4eee9;
+}
+
+/* Bigger tap area on phones */
+@media (max-width: 600px) {
+  .back-btn {
+    width: 100%;
+    justify-content: center;
+    font-size: 18px;
+    padding: 14px;
+  }
+}
+
+/* ===== BUTTONS ===== */
+.primary-btn {
+  width: 100%;
+  padding: 14px;
+  background: #1a4fa3;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 14px;
+  background: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ===== DIVIDER ===== */
+.divider {
+  margin: 18px 0;
+  color: #777;
+  font-size: 14px;
+}
+
+/* ===== FOOT TEXT ===== */
+.login-note {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #666;
+}
+
+.error-text {
+  color: #c62828;
+  margin-top: 10px;
+}
+
+/* Phones */
+@media (max-width: 600px) {
+
+  .login-page {
+    padding: 14px;
+  }
+
+  .login-card {
+    width: 100% !important;     /* override fixed width */
+    max-width: 420px;
+    padding: 20px;
+    border-radius: 14px;
+  }
+
+  .login-card h1 {
+    font-size: 22px;
+  }
+
+  .login-subtext {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  .login-card input {
+    font-size: 16px;  /* prevent zoom on iPhone */
+    padding: 10px;
+  }
+
+  .primary-btn,
+  .secondary-btn,
+  .google-btn {
+    font-size: 16px;
+    padding: 14px;
+  }
+
+  .divider {
+    margin: 14px 0;
+  }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+
+  .login-card {
+    width: 90%;
+    max-width: 460px;
+    padding: 28px;
+  }
+
+  .login-card h1 {
+    font-size: 26px;
+  }
+
+  .login-subtext {
+    font-size: 15px;
+  }
+}
